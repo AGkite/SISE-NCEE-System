@@ -1,0 +1,15 @@
+@startuml
+
+actor foo1
+boundary foo2
+control foo3
+entity foo4
+database foo5
+
+foo1->foo2:To boundary
+foo1->foo3:To control
+foo1->foo4:To entity
+foo1->foo5:To database
+foo1->foo6:To collections
+abc->efg:dnnk
+@enduml
